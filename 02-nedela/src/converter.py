@@ -75,7 +75,14 @@ elif izvele == '4':
     vieniba_1, vieniba_2 = "$", "€"
     koeficients = USD_TO_EUR
   
-# Viena vienīga f-string rindiņa, kas smuki saliek kopā visus iegūtos mainīgos!
+# Šajā daļā es veicu pašus aprēķinus atkarībā no lietotāja izvēles un virziena.
+# Mana loģika ir vienāda visām četrām kategorijām (garums, svars, tilpums, valūta):
+# 1. Ja virziens ir "uz priekšu" (1), es reizinu ievadīto skaitli ar konstanti.
+# 2. Ja virziens ir "atpakaļ" (2), es dalu ievadīto skaitli ar konstanti.
+# 
+# Rezultātu izvadīšanai es izmantoju f-stringus. Lai cipari ekrānā izskatītos 
+# glīti un profesionāli, es visur pieliku ":.2f", kas manus skaitļus automātiski 
+# noapaļo līdz tieši 2 decimālzīmēm aiz komata.
 print("-" * 25)
 
 if izvele == '1':
@@ -104,8 +111,15 @@ elif izvele == '4':
 
 print("-" * 25)
 
-
-
+#PĀRBAUDE - STRĀDĀ!
+#Izvēlies konversiju: 1) km<->mi  2) kg<->lb  3) L<->gal  4) $<->€
+#> 2
+#Virziens: 1) kg -> lb  2) lb -> kg
+#> 2
+#Ievadi vērtību: 23
+#-------------------------
+#23.00 lb = 10.43 kg
+#-------------------------
 
 
 
