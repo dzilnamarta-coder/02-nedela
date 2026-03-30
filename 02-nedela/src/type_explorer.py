@@ -51,5 +51,3 @@ print(f"Droša '1.67' teksta konversija: {int(float('1.67'))}") # (Vispirms par 
 print(0.1 + 0.2 == 0.3)     # False, tapec ka 0.1 un 0.2 nevar precīzi attēlot binārajā formātā, un rezultāts ir nedaudz mazāks par 0.3, tāpēc tas nav vienāds ar 0.3.
 print(round(2.5))           # 2 (jo Python izmanto "banker's rounding", kur 2.5 tiek noapaļots uz tuvāko pāra skaitli, kas ir 2)
 print(round(3.5))           # 4 (jo 3.5 tiek noapaļots uz tuvāko pāra skaitli, kas ir 4)
-
-
